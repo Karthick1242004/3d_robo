@@ -11,7 +11,7 @@ export default function App() {
     // Simulate loading time
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Change this to the actual loading time of your app
+    }, 1000); // Change this to the actual loading time of your app
 
     return () => clearTimeout(timer);
   }, []);
@@ -28,7 +28,9 @@ export default function App() {
           <div className='sp1'>
             <Splines />
             <div className='main'>
-              <h1>Hello Everyone</h1>
+              <h1> - Hello Everyone - </h1>
+              <p> " Please view it in laptop or desktop for better experience</p>
+              <p>Touch for 3D interactions with robot " </p>
             </div>
           </div>
         </>
